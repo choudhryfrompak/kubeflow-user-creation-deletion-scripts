@@ -1,0 +1,57 @@
+[
+  {
+    "username": "test",
+    "email": "test",
+    "cpu_limit": "5",
+    "memory_limit": "5Gi",
+    "gpu_mem": "5",
+    "gpu_count": "0",
+    "storage_limit": "100Gi",
+    "creation_time": "2024-10-08T21:28:36.336690",
+    "deletion_time": "2024-10-09T05:59:05.086456"
+  },
+  {
+    "username": "choudhry",
+    "email": "choudhry",
+    "cpu_limit": "5",
+    "memory_limit": "5Gi",
+    "gpu_mem": "5",
+    "gpu_count": "0",
+    "storage_limit": "200Gi",
+    "creation_time": "2024-10-09T09:42:29.831569",
+    "deletion_time": null
+  },
+  {
+    "username": "drsohailkhan",
+    "email": "sohail.khan@spcai.paf-iast.edu.pk",
+    "cpu_limit": "4",
+    "memory_limit": "32Gi",
+    "gpu_mem": "24",
+    "gpu_count": "0",
+    "storage_limit": "10Gi",
+    "creation_time": "2024-10-09T09:52:11.293696",
+    "deletion_time": "2024-10-09T09:56:40.004217"
+  },
+  {
+    "username": "drmaqboolkhan",
+    "email": "maqbool.khan@fecid.paf-iast.edu.pk",
+    "cpu_limit": "20",
+    "memory_limit": "128Gi",
+    "gpu_mem": "24",
+    "gpu_count": "1",
+    "storage_limit": "200Gi",
+    "creation_time": "2024-10-09T14:18:01.781818",
+    "deletion_time": "2024-10-09T14:55:05.251939"
+  },
+  {
+    "username": "drsohailkhan",
+    "email": "sohail.khan@spcai.paf-iast.edu.pk",
+    "cpu_limit": "20",
+    "memory_limit": "128Gi",
+    "gpu_mem": "48",
+    "gpu_count": "3",
+    "storage_limit": "200Gi",
+    "creation_time": "2024-10-09T14:58:30.793670",
+    "deletion_time": null
+  }
+]

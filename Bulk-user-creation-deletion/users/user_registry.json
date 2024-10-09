@@ -1,0 +1,57 @@
+{
+  "classes": {
+    "aif22": {
+      "class_name": "AI-F22",
+      "class_tag": "aif22",
+      "num_users": 5,
+      "cpu_limit": "5",
+      "memory_limit": "5Gi",
+      "gpu_mem": "5",
+      "gpu_count": "0",
+      "storage_limit": "10Gi",
+      "creation_time": "2024-10-09T19:33:37.908102"
+    }
+  },
+  "users": [
+    {
+      "username": "aif22-1",
+      "email": "aif22-1@paf-iast",
+      "password": "rqnwy",
+      "class_tag": "aif22",
+      "creation_time": "2024-10-09T19:33:38.452765",
+      "deletion_time": "2024-10-09T19:49:26.254763"
+    },
+    {
+      "username": "aif22-2",
+      "email": "aif22-2@paf-iast",
+      "password": "tia9y",
+      "class_tag": "aif22",
+      "creation_time": "2024-10-09T19:33:38.990939",
+      "deletion_time": null
+    },
+    {
+      "username": "aif22-3",
+      "email": "aif22-3@paf-iast",
+      "password": "volmw",
+      "class_tag": "aif22",
+      "creation_time": "2024-10-09T19:33:39.153583",
+      "deletion_time": "2024-10-09T19:51:45.253247"
+    },
+    {
+      "username": "aif22-4",
+      "email": "aif22-4@paf-iast",
+      "password": "xymt9",
+      "class_tag": "aif22",
+      "creation_time": "2024-10-09T19:33:39.314921",
+      "deletion_time": "2024-10-09T19:49:26.254763"
+    },
+    {
+      "username": "aif22-5",
+      "email": "aif22-5@paf-iast",
+      "password": "vz1cz",
+      "class_tag": "aif22",
+      "creation_time": "2024-10-09T19:33:39.479376",
+      "deletion_time": "2024-10-09T19:49:12.951807"
+    }
+  ]
+}

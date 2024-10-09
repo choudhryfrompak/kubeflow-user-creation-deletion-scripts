@@ -1,0 +1,18 @@
+apiVersion: kubeflow.org/v1beta1
+kind: Profile
+metadata:
+  name: {{ profile_name }}
+  # The name of the profile, which will also be used as the namespace name
+spec:
+  # Owner of the profile
+  owner:
+    kind: User  # Can be 'User' or 'ServiceAccount'
+    name: {{ user_email }}  # The user's email or ServiceAccount name
+  # Optional: Resource quota for the namespace
+  resourceQuotaSpec:
+    hard:
+      cpu: "{{ cpu_limit }}"
+      memory: {{ memory_limit }}
+      requests.aliyun.com/gpu-mem: "{{ gpu_mem }}"
+      requests.aliyun.com/gpu-count: "{{ gpu_count }}"
+      requests.storage: {{ storage_limit }}

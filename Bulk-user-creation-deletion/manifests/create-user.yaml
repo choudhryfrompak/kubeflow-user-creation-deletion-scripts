@@ -1,0 +1,18 @@
+apiVersion: kubeflow.org/v1beta1
+kind: Profile
+metadata:
+  name: drsohailkhan
+  # The name of the profile, which will also be used as the namespace name
+spec:
+  # Owner of the profile
+  owner:
+    kind: User  # Can be 'User' or 'ServiceAccount'
+    name: sohail.khan@spcai.paf-iast.edu.pk  # The user's email or ServiceAccount name
+  # Optional: Resource quota for the namespace
+  resourceQuotaSpec:
+    hard:
+      cpu: "20"
+      memory: 128Gi
+      requests.aliyun.com/gpu-mem: "48"
+      requests.aliyun.com/gpu-count: "3"
+      requests.storage: 200Gi
